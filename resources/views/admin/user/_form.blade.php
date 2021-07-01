@@ -20,7 +20,7 @@
 @error('phone') <small class="text-danger">{{ $message }}</small> @enderror
 
 <div class="form-group">
-    <label for="email">Phone : &nbsp;</label>
+    <label for="email">Email : &nbsp;</label>
     <input type="email" class="form-control" name="email" id="email"
         value="{{ old('email', isset($user) ? $user->email : null) }}" placeholder="Email address">
 </div>
